@@ -1,12 +1,5 @@
-// document.getElementsByTagName("BODY")[0].style.display = "none";
-//  document.getElementById("limiter").style.display = 'none'
- // document.getElementById("limiter").style.display = 'flex'
-
-
-(function ($) {
+(function ($){
     "use strict";
-
-
      /*==================================================================
     [ Focus input ]*/
     $('.input100').each(function(){
@@ -19,7 +12,6 @@
             }
         })
     })
-
 
     /*==================================================================
     [ Validate ]*/
@@ -37,7 +29,6 @@
 
         return check;
     });
-
 
     $('.validate-form .input100').each(function(){
         $(this).focus(function(){
