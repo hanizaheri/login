@@ -1,91 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>Forget password</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="images/icons/icons8-lock-50.png"/>
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-</head>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Welcome</title>
+      <link rel="icon" type="image/png" href="images/icons/welcome-back.png"/>
+      <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
 
-	<div id="limiter">
-		<div class="container-login100">
+    <header class="header">
+      <nav class="navbar">
+        <div class="buttons">
+          <a href="#" class="signup">Sign Out</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+
+      <div class="hero">
+        <h2>Hey Hani,</h2>
+        <p> Welcome back! You can top up your wallet balance by clicking below.</p>
+        <div class="buttons">
+          <a href="#" class="join">Top Up</a>
+        </div>
+      </div>
+
+      <div class="img">
+        <div id="limiter">
+          <div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-<!--				<form class="login100-form validate-form">-->
-					<span class="login100-form-title p-b-49">
-						Trouble logging in?
-					</span>
-
-					<div class="wrap-input100 validate-input m-b-23">
-						<span class="label-input100">Username</span>
-						<input class="input100" id="input-name2" type="text" name="username" readonly>
-						<span class="focus-input100" data-symbol="&#xf206;"></span>
-					</div>
-
-					<div class="wrap-input100 m-b-23">
-						<span class="label-input100">New password</span>
-						<div class="pass-field">
-							<input class="input100" type="password" name="pass" placeholder="Type your new password">
-							<i class="fa-solid fa-eye"></i>
-						</div>
-						<span class="focus-input100" data-symbol="&#xf190;"></span>
-					</div>
-					<div class="content m-b-23">
-						<p>Password must contains</p>
-						<ul class="requirement-list">
-						  <li>
-							<i class="fa-solid fa-circle"></i>
-							<span>At least 8 characters length</span>
-						  </li>
-						  <li>
-							<i class="fa-solid fa-circle"></i>
-							<span>At least 1 number (0...9)</span>
-						  </li>
-						  <li>
-							<i class="fa-solid fa-circle"></i>
-							<span>At least 1 lowercase letter (a...z)</span>
-						  </li>
-						  <li>
-							<i class="fa-solid fa-circle"></i>
-							<span>At least 1 special symbol (!...$)</span>
-						  </li>
-						  <li>
-							<i class="fa-solid fa-circle"></i>
-							<span>At least 1 uppercase letter (A...Z)</span>
-						  </li>
-						</ul>
-					</div>
-
-					<label id="text_label"></label>
-
-					<div class="container-login100-form-btn">
-						<div class="wrap-login100-form-btn">
-							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn" onclick="myFunction()">
-								Change password
-							</button>
-						</div>
-					</div>
-<!--				</form>-->
+              <label> Wallet balance: </label>
+              <label> 300 $ </label>
 			</div>
 		</div>
 	</div>
+      </div>
 
-	<div class="create-confirmation">
-		<label id="create"> </label>
-		<canvas style="display: none" id = "confetii"> </canvas>
-	</div>
+    </section>
 
-	<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-	<script src="js/main2.js"></script>
-
-</body>
+  </body>
 </html>
