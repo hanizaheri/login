@@ -1,0 +1,97 @@
+body{
+    background-image: url('../images/bg-01.jpg');
+}
+
+.mt-5{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart .table{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cart .table thead tr th{
+    background-color: #8918a5;
+    text-align: center;
+    border-top:0;
+    font-size:16px;
+    font-weight: bold;
+    border-bottom:0;
+}
+.cart .table thead tr td{
+    padding-top:30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    align-self: center;
+}
+.cart .table tbody tr td .main .d-flex{
+    padding-right:30px;
+}
+.cart .table tbody tr td .main .des{
+    vertical-align: middle;
+    align-self: center;
+}
+.cart .table tbody tr td .main .des p{
+    margin-bottom:0px;
+}
+.cart .table tbody tr td h6{
+    font-size:16px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+  display: inline-block;
+}
+
+.buttons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.buttons .learn {
+  border: 1px solid #ffffff;
+  border-radius: 0.375rem;
+}
+
+.buttons a:hover {
+    background-color: #c69def;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons{
+  display:flex;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+    margin-bottom: 10%;
+}
+
+h6{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+label{
+    text-align: center;
+}
